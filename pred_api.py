@@ -5,7 +5,6 @@ Spyder Editor
 This is a temporary script file.
 """
 import re
-import nltk
 import pickle
 from nltk.stem.wordnet import WordNetLemmatizer
 from tensorflow.keras.models import load_model
