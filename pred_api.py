@@ -7,14 +7,14 @@ This is a temporary script file.
 import re
 import pickle
 from nltk.stem.wordnet import WordNetLemmatizer
-#from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
-from sklearn.externals import joblib
+
 # defing stopwords manually
 
-model=joblib.load('./static/models/cnn_toxic_new.h5')
-with open('static/models/tokenizer_toxic.pickle', 'rb') as handle:
+model=load_model('C:/Users/ASUS/Downloads/cnn_toxic_new.h5')
+with open('Downloads/tokenizer_toxic.pickle', 'rb') as handle:
     tokenizer_toxic = pickle.load(handle)
 
 STOP_WORDS= set([ 'the', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', "you're", "you've",\
