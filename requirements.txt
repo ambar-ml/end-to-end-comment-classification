@@ -1,5 +1,4 @@
 nltk>=3.4.5
-pickle>=4.0
 tensorflow-gpu==2.3.1
 Flask==1.1.2
 Jinja2==2.11.2
