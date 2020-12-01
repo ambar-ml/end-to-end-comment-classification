@@ -3,4 +3,4 @@ Flask==1.1.2
 Jinja2==2.11.2
 nltk==3.4.5
 scikit-learn>=0.23.2
-
+gunicorn==19.9.0
