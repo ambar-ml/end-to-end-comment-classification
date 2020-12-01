@@ -13,7 +13,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 
 # defing stopwords manually
 
-model=load_model('C:/Users/ASUS/Downloads/cnn_toxic_new.h5')
+model=load_model('C:/Users/ASUS/Downloads/cnn_toxic_new(1).h5')
 with open('Downloads/tokenizer_toxic.pickle', 'rb') as handle:
     tokenizer_toxic = pickle.load(handle)
 
