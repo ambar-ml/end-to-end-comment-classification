@@ -1,1 +1,1 @@
-web: python pred_app.py
+web: gunicorn pred_app:app
